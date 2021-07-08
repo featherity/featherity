@@ -1227,6 +1227,16 @@
     "menu",
     "options"
   ],
+  "mountain": [
+    "climb",
+    "hike",
+    "rock"
+  ],
+  "mountain-snow": [
+    "alpine",
+    "climb",
+    "snow"
+  ],
   "mouse-pointer": [
     "arrow",
     "cursor",
