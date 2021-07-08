@@ -1,0 +1,14 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M20 22C21 22 22 21 22 20C22 19 22 10 22 9C22 8 21 7 20 7C19 7 18 7 18 7M20 22C19 22 18 21 18 20C18 19 18 7 18 7M20 22L4 22C3 22 2 21 2 20C2 19 2 5 2 4C2 3 3 2 4 2C5 2 15 2 16 2C17 2 18 3 18 4C18 5 18 7 18 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M5 5H10H15M5 9H8M12 9H15M15 12H12M8 12H5M5 15H8M12 15H15M15 18H12M8 18H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
