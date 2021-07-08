@@ -46,10 +46,16 @@ jobs:
       run: sudo yarn add svg-outline-stroke -W
 
     - name: "Outline SVG"
-      run: mkdir converted_icons && node scripts/outline_svg.js
+      run: node scripts/outline_svg.js
 
     - name: Build 'Lucide'
-      run: echo "Building Lucide font" && fontcustom compile ./converted_icons -h -n Lucide -o build -F
+      run: |
+          mkdir build
+          list=(_200 _300 "" _500 _600)
+          for name in "${list[@]}"
+          do
+            fontcustom compile "./converted_icons${name}" -h -n "Lucide${name}" -o ./tmp -F && mv ./tmp/* build
+          done
 
     - name: Zip 'Lucide'
       run: zip -r Lucide.zip build
