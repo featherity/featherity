@@ -34,6 +34,7 @@ Lucide is trying to expand the icon set as much as possible while staying faithf
   * [Angular](#angular)
   * [Preact](#preact)
   * [Figma](#figma)
+  * [Laravel](#laravel)
 * [Contributing](#contributing)
 * [Community](#community)
 * [License](#license)
@@ -134,6 +135,16 @@ The lucide figma plugin.
 Visit [Figma community page](https://www.figma.com/community/plugin/939567362549682242/Lucide-Icons) to install the plugin.
 
 <img width="420" src="https://www.figma.com/community/plugin/939567362549682242/thumbnail" alt="Figma Lucide Cover">
+
+### Laravel
+
+Implementation of Lucide icon's using `blade-icons` for Laravel based projects.
+
+```sh
+composer require mallardduck/blade-lucide-icons
+```
+
+For more details, see the [documentation](https://github.com/mallardduck/blade-lucide-icons/blob/main/README.md).
 
 ## Contributing
 
