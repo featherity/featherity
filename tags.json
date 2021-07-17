@@ -1460,6 +1460,11 @@
   "rewind": [
     "music"
   ],
+  "rocking-chair": [
+    "chair",
+    "furniture",
+    "seat"
+  ],
   "rotate-ccw": [
     "arrow",
     "left"
